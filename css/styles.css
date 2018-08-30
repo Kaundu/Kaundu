@@ -1,0 +1,9 @@
+html {
+  height: 100%;
+}
+body{
+    background-color:  rgb(8, 8, 8);
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(45, 121, 219);
+    font-size: 18px;
+}
