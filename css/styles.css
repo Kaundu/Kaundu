@@ -7,3 +7,32 @@ body{
     color: rgb(45, 121, 219);
     font-size: 18px;
 }
+/* styling the side nav */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-image: url("../images/rambo.jpg");
+    clip-path: polygon(0 0, 57% 0, 81% 15%, 81% 80%, 56% 100%, 0 100%, 0% 80%, 0 20%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(23, 98, 196);
+    display: block;
+    transition: 0.3s;
+}
