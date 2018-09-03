@@ -19,17 +19,17 @@
             animation-name: animatebottom;
             animation-duration: 1s
         }
-        
+
         @-webkit-keyframes animatebottom {
-            from { bottom:-100px; opacity:0 } 
+            from { bottom:-100px; opacity:0 }
             to { bottom:0px; opacity:1 }
         }
-        
-        @keyframes animatebottom { 
-            from{ bottom:-100px; opacity:0 } 
+
+        @keyframes animatebottom {
+            from{ bottom:-100px; opacity:0 }
             to{ bottom:0; opacity:1 }
         }
-        
+
         #myDiv {
             display: none;
             text-align: center;
@@ -39,7 +39,7 @@
 </head>
 
 <body onload="myFunction()"  onload="ourFunction()"  style="margin:0;" data-spy="scroll" data-target="#myScrollspy" data-offset="1" >
-    
+
         <div id="loader">
             <div class="container">
                 <div class="row" id="ld">
@@ -56,25 +56,39 @@
                                     <polygon class="polymorph" stroke-width="1" stroke="currentColor" points="70 49.483059011548505 134.06835300384952 55.25334599864135 90.76630099750915 103.1366469961505 30.476300997509146 130.4201350033966 40.931646996150505 64.95856399909424 "></polygon>
                                 </g>
                             </svg> </div>
-                            
-                            <div id="JSobject" >
-                            <pre style="color:rgb(50, 97, 226);" >{"ready":"0"}</pre> </div>        
 
-                        
+                            <div id="JSobject" >
+                            <pre style="color:rgb(50, 97, 226);" >{"ready":"0"}</pre> </div>
+
+
 
                     </div>
-                    <div class="col-md-4"></div>            
-                </div>    
+                    <div class="col-md-4"></div>
+                </div>
             </div>
         </div>
 
 
-        
+
     <div style="display:none;" id="myDiv" class="animate-bottom">
+
+
+      <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+              <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+              <ul class="navbar-nav">
+              <li><a href="#plioj">Top</a></li>
+                <br>
+              <li><a href="#projects">Projects</a></li>
+                <br>
+              <li><a href="#section1">Section 1</a></li>
+
+
+              </nav>
 
             <div id="mySidenav" class="sidenav" id="myScrollspy">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" onclick="showShape()">&times;</a>
-            
+
                 <a href="#" data-toggle="modal" data-target="#myModal">About</a>
                 <a href="#">Services</a>
                 <a href="#">Clients</a>
@@ -85,32 +99,32 @@
         <div id="main" onload="typewriter()" onmouseover="typeWriter()" >
         <!--<span onclick="openNav()"><a href="#"style="float:left;" class="button ribbon-outset border">open</a></span> -->
         <!--<span onclick="openNav()"><button type="button" style="float:left;" class="btn btn-outline-success">Open</button></span> -->
-        
+
 
 
         <div id="CSStransforms">
                 <div class="square el">
                    <!-- <h1>Hi,</h1> -->
-                </div>    
+                </div>
         </div>
-        
+
         <div id="cssProperties">
             <div class="large square el">
                 <div class="outerclip">
                     <div class="innerclip">
                         <div onclick="hideShape()" id="svgAttributes"> <svg width="128" style="float:left;" height="128" viewBox="0 0 128 128">
-                            
+
                             <polygon id="tyu" onclick="openNav()"  points="64 128 8.574 96 8.573999999999998 32 64 0 119.426 32 119.426 96 " fill="currentColor"></polygon>
                             <text x="25" y="58" onclick="openNav()" fill="blue">Click here</text>
 
                         </svg> </div>
                     </div>
                 </div>
-                
+
                 <div class="outerclip">
                         <div class="innerclip">
                             <div onclick="hideShape()" id="svgAttributes"> <svg width="128" style="float:left;" height="128" viewBox="0 0 128 128">
-                                
+
                                 <polygon id="tyu" onclick="openNav()" x="25" y="87" points="64 128 8.574 96 8.573999999999998 32 64 0 119.426 32 119.426 96 " fill="currentColor"></polygon>
                                 <text x="25" y="87" onclick="openNav()" fill="blue">Click here</text>
 
@@ -118,24 +132,15 @@
                         </div>
                 </div>
 
-                
-                
+
+
             </div>
-                    <div class="outerclip">
-                            <div class="innerclip">
-                                <div onclick="hideShape()" id="svgAttributes"> <svg width="192" style="float:left;" height="192" viewBox="0 0 128 128">
-                                    
-                                    <polygon id="tyu" onclick="openNav()" x="50" y="87"   points="64 128 8.574 96 8.573999999999998 32 64 0 119.426 32 119.426 96 " fill="currentColor"></polygon>
-                                    <text x="50" y="87" onclick="openNav()" fill="blue">Click here</text>
-    
-                                </svg> </div>
-                            </div>
-                    </div>
+
         </div>
 
         <!--Placing the names-->
-        <section class="containers" >
-            <div class="jumbotron" style="background-color:rgb(8, 8, 8);">
+        <section class="containers" id="plioj">
+            <div class="jumbotron" style="background-color:rgb(8, 8, 8); height:600px;padding-top:200px;">
                 <h1>
                   <span class="title" id="scream">NEVILLE KAUNDU</span>
                   <p id="maercs">
@@ -145,10 +150,11 @@
                   </p>
 
                 </h1>
-            </div>     
+            </div>
                 <!--<div class="buttons">restart</div> -->
         </section>
 
+        <
         <div class="services">
             <h2 class="text-centre">
                 MY SERVICES
@@ -162,14 +168,53 @@
 
         </div>
 
+        <section id="projects">
+            <div class="snapped">
+
+
+              <div class="card" style="width:300px;float:left;">
+                <img src="images/tanos.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Snapped</h4>
+                  <p class="card-text">An application based on the Marvel Movie ,Avengers:Infinity War . The app determines whether the use would survive when placed inside the movies main event</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+
+              <div class="card" style="width:400px; float:right;">
+                <img src="images/glove.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Hustle</h4>
+                  <p class="card-text">A web-based application that connects freelancers and clients.
+                      Build app with Flask which is a python-based framework, python for coding the backend functionality of the app, postgreSQL to store the data and HTML & CSS to design the frontend of the app
+                      Application was successfully able to create a job as a client and bid for the job as a freelancer
+                      Deployed via Heroku
+                      </p>
+                  <a href="https://hustleinc.herokuapp.com/" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+
+
+              <div class="card" style="width:400px">
+                <img src="images/glove.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Snapped</h4>
+                  <p class="card-text">An application based on the Marvel Movie ,Avengers:Infinity War . The app determines whether the use would survive when placed inside the movies main event</p>
+                  <a href="#" class="btn btn-primary">See Project</a>
+                </div>
+              </div>
+            </div>
+
+        </section>
+
         <!-- The Modal -->
         <div class="modal fade" id="myModal" id="section1">
             <div class="modal-dialog modal-dialog-centered">
                 <img id="em" src="/images/Vuosman.jpg">
-                
+
                 My name is Neville,
-                I love gaming 
-                I am a web developer based in Nairobi,Kenya.<br>As a web developer i have dedicated my time and effort to make 
+                I love gaming
+                I am a web developer based in Nairobi,Kenya.<br>As a web developer i have dedicated my time and effort to make
                 <br>some interactive application based on what I have learned.
                 <br>I have the strive to know more and <br>also to help others to reach their potential
                 <br> in the tech industry.During my free time when am not
@@ -182,10 +227,10 @@
          <!-- The Modal -->
          <div class="modal fade" id="thyModal" id="section2" >
             <div class="modal-dialog modal-dialog-centered">
-                
+
 
                 My name is Neville,
-                I love gaming 
+                I love gaming
                 I am a web developer based in Nairobi,Kenya.<br>As a web developer i have dedicated my time and effort to make <br>some interactive application based on what I have learned.<br>I have the strive to know more and <br>also to help others to reach their potential<br> in the tech industry.During my free time when am not<br> coding I usually explore more in Dancing just to<br> keep me on toes.I also love football.<br>The game is actually to die for!
             </div>
         </div>
@@ -197,18 +242,18 @@
 
     </div>
 
-            
-   
+
+
 
 
 
     <script>
         var myVar;
-        
+
         function myFunction() {
             myVar = setTimeout(showPage, 3000);
         }
-        
+
         function showPage() {
             document.getElementById("loader").style.display = "none";
             document.getElementById("myDiv").style.display = "block";
@@ -219,7 +264,7 @@
             document.getElementById("svgAttributes").style.visibility = "hidden";
         }
     </script>
-    <script>    
+    <script>
         function showShape(){
             document.getElementById("svgAttributes").style.visibility = "visible";
         }
@@ -244,5 +289,3 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
-
-          
